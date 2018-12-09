@@ -1,8 +1,8 @@
 {
   "name": "strapi-upload-swisscom-s3",
-  "version": "3.0.0-alpha.14.4.0",
+  "version": "1.0",
   "description": "Swisscom Dynamic Storage (S3) provider for strapi upload",
-  "homepage": "http://strapi.io",
+  "homepage": "https://gitlab.com/dork-farm-gmbh/strapi-upload-swisscom-s3",
   "keywords": [
     "upload",
     "s3",
