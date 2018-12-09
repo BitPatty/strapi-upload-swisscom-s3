@@ -23,8 +23,15 @@
   "author": {
     "name": "Matteias Collet",
     "email": "matteias.collet@swisscom.com",
-    "url": "https://developer.swisscom.com"
+    "url": "https://github.com/BitPatty"
   },
+  "maintainers": [
+    {
+      "name": "Matteias Collet",
+      "email": "matteias.collet@swisscom.com",
+      "url": "https://github.com/BitPatty"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://gitlab.com/dork-farm-gmbh/strapi-upload-swisscom-s3"
