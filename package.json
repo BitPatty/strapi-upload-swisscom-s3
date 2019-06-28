@@ -1,8 +1,8 @@
 {
-  "name": "strapi-upload-swisscom-s3",
+  "name": "strapi-provider-upload-swisscom-s3",
   "version": "1.0.1",
   "description": "Swisscom Dynamic Storage (S3) provider for strapi upload",
-  "homepage": "https://gitlab.com/dork-farm-gmbh/strapi-upload-swisscom-s3",
+  "homepage": "https://gitlab.com/dork-farm-gmbh/strapi-provider-upload-swisscom-s3",
   "keywords": [
     "upload",
     "s3",
@@ -34,10 +34,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://gitlab.com/dork-farm-gmbh/strapi-upload-swisscom-s3"
+    "url": "git://gitlab.com/dork-farm-gmbh/strapi-provider-upload-swisscom-s3"
   },
   "bugs": {
-    "url": "https://gitlab.com/dork-farm-gmbh/strapi-upload-swisscom-s3/issues"
+    "url": "https://gitlab.com/dork-farm-gmbh/strapi-provider-upload-swisscom-s3/issues"
   },
   "engines": {
     "node": ">= 9.0.0",
