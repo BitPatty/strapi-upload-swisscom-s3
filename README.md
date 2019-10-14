@@ -6,7 +6,7 @@ This plugin adds support in [Strapi](http://strapi.io/) for [Swisscom Dynamic St
 
 ## Install
 
-`npm i strapi-upload-swisscom-s3 --save`
+`npm i https://gitlab.com/dork-farm-gmbh/strapi-provider-upload-swisscom-s3 --save`
 
 ## Resources
 
