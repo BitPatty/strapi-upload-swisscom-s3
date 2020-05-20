@@ -2,17 +2,10 @@ const AWS = require('aws-sdk');
 
 class BucketManager {
   constructor(config) {
-    AWS.config.update({
-      accessKeyId: config.public,
-      secretAccessKey: config.private
-    });
-
     this.S3 = new AWS.S3({
-      endpoint: new AWS.Endpoint(config.host),
       apiVersion: '2006-03-01',
-      params: {
-        Bucket: config.bucket
-      }
+      endpoint: new AWS.Endpoint(config.host),
+      ...config,
     });
   }
 
@@ -85,15 +78,16 @@ class BucketManager {
 };
 
 
+const config = {
+  host: "......",
+  accessKeyId: ".........",
+  secretAccessKey: "............",
+  params: {
+    Bucket: "my-test-bucket"
+  }
+};
 
-config = {
-  "host": "ds11s3.swisscom.com",
-  "public": "----------------------------------------",
-  "private": "-------------------------------------",
-  "namespace": "-------------------",
-  "namespaceHost": "",
-  "bucket": "my-test-bucket"
-}
+
 
 const bucketManager = new BucketManager(config)
 bucketManager.listBuckets()
